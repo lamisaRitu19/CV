@@ -1,0 +1,51 @@
+h1, h2, h3, h4 {
+    font-family: 'Sanchez', serif;
+}
+.txt {
+    &--center {
+        text-align: center;
+    }
+    &--upper {
+        text-transform: uppercase;
+    }
+    &--weight {
+        font-weight: bold;
+    }
+    &--deep-blue {
+        color: $deep-blue;
+    }
+    &--blue {
+        color: $blue;
+    }
+    &--green {
+        color: $green;
+    }
+}
+.ln-height {
+    line-height: 1;
+}
+.width {
+    &-75 {
+        width: 75%;
+    }
+    &-70 {
+        width: 70%;
+    }
+    &-72 {
+        width: 72%;
+    }
+    &-60 {
+        width: 60%;
+    }
+    &-50 {
+        width: 50%;
+    }
+    &-40 {
+        width: 40%;
+    }
+}
+.border {
+    &--solid {
+        border-bottom: 5px solid $green;
+    }
+}

@@ -1,0 +1,76 @@
+.mid {
+    margin: 10px 15px 25px 15px;  
+    @media only screen and (min-width: 768px) {
+        margin: 10px 25px 25px 25px;
+    }
+    @media only screen and (min-width: 1024px) {
+        margin: 0.5em 11em 2em 11em;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        .one {
+            order: 1;
+            width: 30%;
+            padding: 0 30px 0 20px;
+        }
+        .two {
+            order: 2;
+            width: 70%;
+            padding: 0 20px 0 30px;
+            border-left: 2px dashed $green;
+        }
+        .three {
+            order: 3;
+            width: 30%;
+            padding: 0 30px 0 20px;
+        }
+        .four {
+            order: 4;
+            width: 70%;
+            padding: 0 20px 0 30px;
+            border-left: 2px dashed $green;
+        }
+        .five {
+            order: 5;
+            width: 30%;
+            padding: 0 30px 0 20px;
+        }
+    }
+    @media only screen and (min-width: 1280px) {
+        margin: 0.5em 14em 3em 14em;
+    }
+    .mid__details {
+        margin: 10px 0px 60px 0px;
+        @media only screen and (min-width: 1024px) {
+            margin: 20px 0px 20px 0px;
+        }
+    }
+    .bars {
+        margin-left: 10px;
+        background-color: $light-grey;
+        width: 90%;
+        border-radius: 5px;
+        .bar--in {
+            background-color: $green;
+            color: $white;
+            height: 25px;
+            border-radius: 5px;
+        }
+    }
+    .link {
+        margin: 50px 0px 30px 0px;
+        text-align: center;
+        @media only screen and (min-width: 1024px) {
+            text-align: left;
+            font-size: 18px;
+        }
+        a {
+            text-decoration: none;
+            margin: 0px 4px;
+            color: $green;
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+}

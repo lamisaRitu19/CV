@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "./node_modules/node-sass/bin/node-sass ./assets/style/style.scss ./assets/build/style.min.css -w --output-style compressed",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamisaRitu19/CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamisaRitu19/CV/issues"
+  },
+  "homepage": "https://github.com/lamisaRitu19/CV#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1"
+  }
+}
